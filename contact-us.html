@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mary Magdalene's Contact Page</Title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/android-icon-144x144.png">
+      <link rel="manifest" href="/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+      <h1>Mary Magdalene Foundation Contact Page</h1>
+    </header>
+    <nav>
+         <a href="index.html">Home</a> | <a href="about.html">About Placeholder</a> | <a href="contact-us.html">Contact</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+        <h2>Mary Magdalene Foundation</h2>
+        <p>The Mary Magdalene foundation exists to further the positive character attributes of Mary Magdalene.  The foundation provides basic needs and education to girls and women in troubled circumstances.  Provide your contact information in the form below to register with the Mary Magdalene Foundation. Upon submission, you will recieve the Mary Magdalene Foundation's monthly newletter featuring updates, events and fundraising opportunities.</p>
+        <h3>Contact Form</h3>
+        <!--Here is a script for the Form -->
+        <fieldset>
+            <legend>Complete the information below</legend>
+            <form id="contactForm" action="mailto:e3678089@student.dcccd.edu" method="post">
+            <p>
+                <label for="yourName">Your Name</label>
+                <input type="text" name="yourName" id="yourName">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="whyJoin">Why you would like to be involved with the Mary Magdalene Foundation:</label>
+                <textarea name="whyJoin" id="whyJoin"></textarea>
+            </p>
+            <p>
+                <label for="involvement">How would you like to be involved with  Mary Magdalene Foundation?  Check all that apply.</label> 
+                <input type="checkbox" name="involvement" id="involvement">
+                <label for="contributor"> Financial Contributor</label>
+                <input type="checkbox" name="contributor" id="contributor">
+                <label for="volunteer"> Volunteer</label>
+                <input type="checkbox" name="volunteer" id="volunteer">
+                <label for="advocate"> Advocate</label>
+                <input type="checkbox" name="advocate" id="advocate">
+                <label for="follower"> Follower</label>
+                <input type="checkbox" name="follower" id="follower">
+            
+            </p>
+            <p>I want to make an initial donation today to further the cause of the Mary Magdalene Foundation in the amount of:</p>
+            <label for="donation">Choose amount:</label>  
+            <select name="donation" id="donation">
+                    <option value="hundred" selected>$100</option>
+                    <option value="seventyFive">$75</option>
+                    <option value="fifty">$50</option>
+                    <option value="zero">$0</option>
+                </select>
+            <p>I would like to subscribe to Mary Magdalene Foundation's monthly newletter featuring updates, events and fundraising opportunities.
+                <input type="radio" name="type" id="typeyes" value="yes">
+                <label for="typeyes">Yes</label>
+                <input type="radio" name="type" id="typeno" value="no">
+                <label for="typeno">No</label>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Submit">
+            </p>
+            <p>
+                <input type="reset" name="Reset" value="Reset">
+            </p>
+            </form>
+        </fieldset>
+        <h3>Events</h3>
+        <p>The Mary Magdalene Foundation holds monthly events to raise awareness and money to support our cause.  Please find information about our upcoming events in the table below.</p>
+        <table border="1" cellspacing="2" cellpadding="2">
+        <caption>Mary Magdalene Foundation's Spring 2023 Fundraising Events</caption>
+        <thead>
+            <tr>
+                <th scope="col" abbr="Column 1" id="col1">Location</th>
+                <th scope="col" abbr="Column 2" id="col2">Location</th>
+                <th scope="col" abbr="Column 3" id="col3">Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="col1">Ladies' Tea</td>
+                <td headers="col2">Dallas Arboretum</td>
+                <td headers="col3">March 1</td>
+            </tr>
+            <tr>
+                <td headers="col1">Majhong and Merriment</td>
+                <td headers="col2">The home of Mary Catherine</td>
+                <td headers="col3">April 23</td>
+            </tr>
+            <tr> 
+                <td headers="col1">Children's Painting Class</td>
+                <td headers="col2">Hola HP</td>
+                <td headers="col3">May 5</td>
+            </tr>
+        </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>Web content for this page is provided by the Mary Magdalene Foundation based in Dallas, Texas.</p>
+        <address>
+            Written by: <a href="mailto:e3678089@student.dcccd.edu">Mary Magdalene of Dallas College</a>.<br>
+            Visit us at:
+            <a href="https://www.dallascollege.edu">dallascollege.edu</a><br>
+            123 Anyway<br>
+            USA
+        </address>
+    </footer>
+</body>
+</html>
